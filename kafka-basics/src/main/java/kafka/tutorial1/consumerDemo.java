@@ -1,4 +1,4 @@
-package com.github.nejatian.kafka.tutorial1;
+package kafka.tutorial1;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -12,13 +12,13 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
 
-public class consumerDemoGroups {
+public class consumerDemo {
     public static void main(String[] args) {
 
         Logger logger = LoggerFactory.getLogger(consumerDemo.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "my-fifth-application";
+        String groupId = "my-fourth-application";
         String topic = "first_topic";
 
         // create properties
@@ -44,5 +44,4 @@ public class consumerDemoGroups {
             }
         }
     }
-
 }

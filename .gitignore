@@ -44,3 +44,4 @@ build/
 !**/src/test/**/build/
 
 **/src/main/resources/twitter.properties
+!/kafka-connect/twitter.properties
